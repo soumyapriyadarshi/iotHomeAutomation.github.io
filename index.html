@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Automation!</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <!-- -------- Header or navbar ------- -->
+    <div class="header">
+        <p>IoT Control Panel</p>
+    </div>
+
+    <!-- -------- each component controll panel ----------- -->
+    
+    <div class="component_container">
+        <div class="box1 box">
+            <div class="box1_header">
+                <h4>FAN</h4>
+                <div class="toggle-btn">
+                    <input type="checkbox" id="check1">
+                    <label for="check1" class="toggle-label">
+                        <span class="toggle-ball"></span>
+                    </label>
+                </div>
+            </div>
+           
+            <!-- --------------------- showing the real time data of you can say the Fans running time and heatting --------------------- -->
+            <div class="attributes">
+                <p>Time:</p>
+                <p2>Tempreture:</p2>
+            </div>
+            
+        </div>
+        <div class="box2 box">
+            <div class="box2_header">
+                <h4>LIGHT</h4>
+                <div class="toggle-btn">
+                    <input type="checkbox" id="check2">
+                    <label for="check2" class="toggle-label">
+                        <span class="toggle-ball"></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="attributes">
+                <p>Time:</p>
+                <p2>Tempreture:</p2>
+            </div>
+        </div>
+        <div class="box3 box">
+            <h4>AC</h4>
+            <div class="toggle-btn">
+                <input type="checkbox" id="check3">
+                <label for="check3" class="toggle-label">
+                    <span class="toggle-ball"></span>
+                </label>
+            </div>
+        </div>
+        <div class="box4 box">
+            <h4>WASHING MACHINE</h4>
+            <div class="toggle-btn">
+                <input type="checkbox" id="check4">
+                <label for="check4" class="toggle-label">
+                    <span class="toggle-ball"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="component_container2">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+    </div> -->
+
+    <!-- ---------- running graph window ----------------- -->
+    
+    <div class="window"></div>
+</body>
+</html>
