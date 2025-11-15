@@ -218,7 +218,7 @@ box4 */
 /* ---------------- box hovering effect and transition ------------------- */
 
 .box:hover {
-    box-shadow: 10px 10px 30px var(--hover-effect);
+    box-shadow: 10px 10px 15px var(--hover-effect);
 }
 
 /* ---------------- Responsiveness ------------------- */
