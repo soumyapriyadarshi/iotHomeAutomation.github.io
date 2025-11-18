@@ -8,14 +8,21 @@
 </head>
 <body>
 
+      <!-- Login form -->
+    <div id="loginForm">
+        <input type="email" id="email" placeholder="Enter Email" required />
+        <input type="password" id="password" placeholder="Enter Password" required />
+        <button id="loginBtn">Login</button>
+    </div>
+
     <!-- -------- Header or navbar ------- -->
-    <div class="header">
+    <div class="header" style="display: none;">
         <p>IoT Control Panel</p>
     </div>
 
     <!-- -------- each component controll panel ----------- -->
     
-    <div class="component_container">
+    <div class="component_container" style="display: none;">
         <div class="box1 box">
             <div class="box1_header">
                 <h4>FAN</h4>
@@ -93,5 +100,12 @@
     <!-- ---------- running graph window ----------------- -->
     
     <div class="window"></div>
+    
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+
+    <!-- ----------- app.js for the integration ------------ -->
+    <script src="static/app.js"></script>
 </body>
 </html>
